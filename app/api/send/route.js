@@ -18,11 +18,11 @@ export async function POST(req) {
         }),
         text: "Emerson ",
       });
-      return Response.json(data);
+      return new Response(JSON.stringify(data));
     } catch (error) {
-      return Response.json({ error });
+      return new Response(JSON.stringify({ error: error.message }));
     }
   } catch (error) {
-    return Response.json({ error });
+    return new Response(JSON.stringify({ error: error.message }));
   }
 }
