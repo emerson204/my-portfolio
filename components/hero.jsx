@@ -38,7 +38,7 @@ export default function Hero() {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          <h2 className="text-4xl font-semibold mb-[.2rem]">Emerson Aldahir</h2>
+          <h2 className="text-4xl font-semibold mb-[.2rem]">Elmer Diaz</h2>
           <h3 className="text-xl text-slate-500 font-medium dark:text-slate-400">
             Front End Developer
           </h3>
