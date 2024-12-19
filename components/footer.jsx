@@ -10,7 +10,7 @@ export default function Footer() {
           <span>
             <ChevronLeft size={40} className="text-indigo-500" />
           </span>
-          ELM
+          EME
           <span>
             <ChevronRight size={40} className="text-indigo-500" />
           </span>
@@ -23,7 +23,7 @@ export default function Footer() {
 
       <Separator className="my-4" />
 
-      <p className="text-center">&copy; 2024 | Elmer Diaz</p>
+      <p className="text-center">&copy; 2024 | Emerson Diaz</p>
     </section>
   );
 }

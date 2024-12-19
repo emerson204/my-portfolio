@@ -33,7 +33,7 @@ export default function Header() {
           <span>
             <ChevronLeft size={40} className="text-indigo-500" />
           </span>
-          ELM
+          EME
           <span>
             <ChevronRight size={40} className="text-indigo-500" />
           </span>
