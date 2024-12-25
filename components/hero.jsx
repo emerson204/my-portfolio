@@ -52,12 +52,13 @@ export default function Hero() {
             busca de nuevos retos y oportunidades para seguir creciendo.
           </p>
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3 md:gap-4">
             <Link
               href="#contacto"
               className={`${buttonVariants()} py-5 hover:shadow-xl transition-shadow duration-300 dark:hover:shadow-slate-600 dark:hover:shadow-lg`}
             >
-              <Mail className="mr-2" /> Contacta conmigo
+              <Mail className="mr-2 w-[1.1rem] md:w-[1.3rem]" /> Contacta
+              conmigo
             </Link>
 
             <Link
@@ -67,7 +68,7 @@ export default function Hero() {
                 variant: "secondary",
               })} py-5 hover:shadow-xl transition-shadow duration-300  dark:hover:shadow-slate-400 dark:hover:shadow-lg`}
             >
-              <Paperclip className="mr-2" />
+              <Paperclip className="mr-2 w-[1.1rem] md:w-[1.3rem]" />
               Descargar CV
             </Link>
           </div>
