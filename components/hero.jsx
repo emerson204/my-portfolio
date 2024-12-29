@@ -62,7 +62,7 @@ export default function Hero() {
             </Link>
 
             <Link
-              href="#"
+              href="/cv.pdf"
               target="_blank"
               className={`${buttonVariants({
                 variant: "secondary",
