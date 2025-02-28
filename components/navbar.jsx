@@ -11,7 +11,7 @@ export default function Navbar({ open, handleClose }) {
           : "opacity-0 pointer-events-none md:pointer-events-auto"
       } md:opacity-100`}
     >
-      <nav className="flex flex-col  md:flex-row gap-7 pl-10 md:pl-0 pt-14 md:pt-0 left-0 absolute md:static top-0 w-[60%] md:w-auto bottom-0 bg-white md:bg-transparent md:items-center">
+      <nav className="flex flex-col md:flex-row gap-7 pl-10 md:pl-0 pt-14 md:pt-0 left-0 absolute md:static top-0 w-[60%] md:w-auto bottom-0 bg-white md:bg-transparent md:items-center">
         <X
           className="md:hidden flex flex-end w-[150%] text-black "
           onClick={handleClose}
