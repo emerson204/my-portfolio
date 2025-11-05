@@ -46,7 +46,7 @@ export default function Proyectos() {
               target="_blank"
             >
               <IoIosLink />
-              {proyecto.linkProyecto}
+              {proyecto.nombreProyecto}
             </Link>
 
             <p>{proyecto.descripcion}</p>
