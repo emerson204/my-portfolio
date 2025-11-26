@@ -9,10 +9,10 @@ const dataContacto = [
   {
     id: 1,
     title: "Teléfono",
-    tipo: "+51 907 559 345",
+    tipo: "+51 983 438 700",
     event: "Llamar",
     icon: <Phone size={20} />,
-    href: "tel:+51 907 559 345",
+    href: "tel:+51 983 438 700",
   },
   {
     id: 2,
