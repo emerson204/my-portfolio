@@ -23,7 +23,7 @@ export default function Footer() {
 
       <Separator className="my-4" />
 
-      <p className="text-center">&copy; 2024 | Emerson Castillo</p>
+      <p className="text-center">&copy; 2024 | Emerson Yupton</p>
     </section>
   );
 }

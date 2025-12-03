@@ -39,10 +39,10 @@ export default function Hero() {
           }}
         >
           <h2 className="text-4xl font-semibold mb-[.2rem]">
-            Emerson Castillo
+            Emerson Yupton
           </h2>
-          <h3 className="text-xl text-slate-500 font-medium dark:text-slate-400">
-            Front End Developer
+          <h3 className="text-xl text-slate-500 font-medium dark:text-gray-400">
+            Full Stack Developer
           </h3>
           <Separator className="w-[30%] my-3 md:my-4 h-[2px] bg-slate-400" />
           <p className="mb-6">

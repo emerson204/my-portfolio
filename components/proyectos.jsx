@@ -40,6 +40,13 @@ export default function Proyectos() {
                 <FaGithub size={20} />
               </Link>
             </div>
+            <p className="text-xs font-medium px-2 py-0.5 rounded-md 
+                bg-[#6366f1] text-white 
+                dark:bg-[#6366f1] dark:text-white 
+                w-fit tracking-wide my-3">
+                {proyecto.tipo}
+            </p>
+
             <Link
               href={proyecto.linkProyecto}
               className="flex items-center gap-1 text-sm w-fit hover:translate-x-1 transition-all mb-3 hover:text-slate-500  duration-200 hover:dark:text-slate-400"
@@ -49,6 +56,8 @@ export default function Proyectos() {
               {proyecto.nombreProyecto}
             </Link>
 
+           
+
             <p>{proyecto.descripcion}</p>
 
             <Separator className="my-3" />
@@ -56,7 +65,7 @@ export default function Proyectos() {
             <div className="flex items-center gap-3 flex-wrap text-sm">
               {proyecto.tecnologias.map((tecnologia) => (
                 <p
-                  className="bg-black text-white  dark:bg-gray-400/30 w-fit rounded-md py-1 px-2"
+                  className="bg-slate-900 text-white  dark:bg-gray-400/30 w-fit rounded-md py-1 px-2"
                   key={tecnologia}
                 >
                   {tecnologia}
